@@ -749,12 +749,19 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
+"@solidity-parser/parser@^0.14.1":
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.14.5.tgz#87bc3cc7b068e08195c219c91cd8ddff5ef1a804"
+  integrity sha512-6dKnHZn7fg/iQATVEzqyUOyEidbn05q7YA2mQ9hC0MMXhhV3/JrsxmFSYZAcr7j1yUP700LLhTruvJ3MiQmjJg==
+  dependencies:
+    antlr4ts "^0.5.0-alpha.4"
+
 "@solidity-parser/parser@^0.5.2":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.5.2.tgz#4d74670ead39e4f4fdab605a393ba8ea2390a2c4"
   integrity sha512-uRyvnvVYmgNmTBpWDbBsH/0kPESQhQpEc4KsvMRLVzFJ1o1s0uIv0Y6Y9IB5vI1Dwz2CbS4X/y4Wyw/75cTFnQ==
 
-"@solidity-parser/parser@^0.8.0", "@solidity-parser/parser@^0.8.1":
+"@solidity-parser/parser@^0.8.1":
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.8.2.tgz#a6a5e93ac8dca6884a99a532f133beba59b87b69"
   integrity sha512-8LySx3qrNXPgB5JiULfG10O3V7QTxI/TLzSw5hFQhXWSkVxZBAv4rZQ0sYgLEbc8g3L2lmnujj1hKul38Eu5NQ==
@@ -1187,6 +1194,11 @@ antlr4ts@^0.5.0-alpha.3:
   version "0.5.0-alpha.3"
   resolved "https://registry.yarnpkg.com/antlr4ts/-/antlr4ts-0.5.0-alpha.3.tgz#fa6d39d88d6b96341a8afef45867af9abcb38766"
   integrity sha512-La89tKkGcHFIVuruv4Bm1esc3zLmES2NOTEwwNS1pudz+zx/0FNqQeUu9p48i9/QHKPVqjN87LB+q3buTg7oDQ==
+
+antlr4ts@^0.5.0-alpha.4:
+  version "0.5.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/antlr4ts/-/antlr4ts-0.5.0-alpha.4.tgz#71702865a87478ed0b40c0709f422cf14d51652a"
+  integrity sha512-WPQDt1B74OfPv/IMS2ekXAKkTZIHl88uMetg6q3OTqgFxZ/dxDXI0EWLyZid/1Pe6hTftyg5N7gel5wNAGxXyQ==
 
 any-promise@1.3.0, any-promise@^1.3.0:
   version "1.3.0"
@@ -2718,9 +2730,9 @@ cookie@^0.4.1:
   integrity sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==
 
 cookiejar@^2.1.1:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.2.tgz#dd8a235530752f988f9a0844f3fc589e3111125c"
-  integrity sha512-Mw+adcfzPxcPeI+0WlvRrr/3lGVO0bD75SxX6811cxSh1Wbxx7xZBGK1eVtDf6si8rg2lhnUjsVLMFMfbRIuwA==
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.4.tgz#ee669c1fea2cf42dc31585469d193fef0d65771b"
+  integrity sha512-LDx6oHrK+PhzLKJU9j5S7/Y3jM/mUHvD/DeI1WQmJn652iPC5Y4TBzC9l+5OMOXlyTTA+SmVUPm0HQUwpD5Jqw==
 
 copy-descriptor@^0.1.0:
   version "0.1.1"
@@ -8514,13 +8526,13 @@ trim-right@^1.0.1:
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-truffle-flattener@^1.4.4:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/truffle-flattener/-/truffle-flattener-1.5.0.tgz#c358fa3e5cb0a663429f7912a58c4f0879414e64"
-  integrity sha512-vmzWG/L5OXoNruMV6u2l2IaheI091e+t+fFCOR9sl46EE3epkSRIwGCmIP/EYDtPsFBIG7e6exttC9/GlfmxEQ==
+truffle-flattener@^1.5.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/truffle-flattener/-/truffle-flattener-1.6.0.tgz#abb64488b711e6cca0a9d3e449f6a85e35964c5d"
+  integrity sha512-scS5Bsi4CZyvlrmD4iQcLHTiG2RQFUXVheTgWeH6PuafmI+Lk5U87Es98loM3w3ImqC9/fPHq+3QIXbcPuoJ1Q==
   dependencies:
     "@resolver-engine/imports-fs" "^0.2.2"
-    "@solidity-parser/parser" "^0.8.0"
+    "@solidity-parser/parser" "^0.14.1"
     find-up "^2.1.0"
     mkdirp "^1.0.4"
     tsort "0.0.1"
